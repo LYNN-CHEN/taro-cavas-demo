@@ -3,8 +3,8 @@ import { View, Text } from '@tarojs/components'
 import { AtButton } from 'taro-ui'
 import BottomTabs from '../../components/BottomTabs/BottomTabs'
 
-import "taro-ui/dist/style/components/button.scss" // 按需引入
 import './index.scss'
+// import "taro-ui/dist/style/components/button.scss" // 按需引入
 
 export default class Index extends Component {
 
@@ -27,7 +27,7 @@ export default class Index extends Component {
         <AtButton type='primary' circle={true}>支持</AtButton>
         <Text>共建？</Text>
         <AtButton type='secondary' circle={true}>来</AtButton>
-        <BottomTabs/>
+        {/* <BottomTabs/> */}
       </View>
     )
   }

@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import './app.scss'
 import './custom-theme.scss'
+import './app.scss'
 
 class App extends Component {
 

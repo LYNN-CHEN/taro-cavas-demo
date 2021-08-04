@@ -9,6 +9,7 @@ export default {
     navigationBarTextStyle: 'black'
   },
   tabBar: {
+    color: "#B4B4B4",
     list:[
       {
         pagePath:"pages/index/index",

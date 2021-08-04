@@ -1,6 +1,9 @@
-$color-brand: #149438;
-$color-brand: #149438;
-$color-brand-light: #3CCC65 80%;
-$color-brand-dark: #149438;
+$at-button-bg: #149438;
+
+// 覆盖primary button样式
+// $at-button-bg: #149438;
+$at-button-border-color-primary: #149438;
+
+// 覆盖Badge样式
 
 @import "~taro-ui/dist/style/index.scss";
