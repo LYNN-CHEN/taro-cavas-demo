@@ -4,6 +4,13 @@ $at-button-bg: #149438;
 // $at-button-bg: #149438;
 $at-button-border-color-primary: #149438;
 
+// 覆盖tag样式
+$at-tag-color: #149438;
+$at-tag-bg-color: #EEF0ED;
+$at-tag-color-active: #F5F7F7;
+$at-tag-border-color-active: #149438;
+$at-tag-bg-color-active: #149438;
+
 // 覆盖Badge样式
 
 @import "~taro-ui/dist/style/index.scss";
